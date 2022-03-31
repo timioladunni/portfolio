@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #252424;
-    background: #ffffff;
+    background:   linear-gradient(#e2e9e9, #FFCCCC), url(../img/hero-bg.jpg);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -165,7 +165,7 @@ a:focus {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: #f8f9fa;
+    background: linear-gradient(#e2e9e9, #FFCCCC), url(../img/hero-bg.jpg);
 }
 
 @media (min-width: 992px) {
@@ -180,7 +180,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #ffffff !important;
+        background: linear-gradient(#e2e9e9, #f1e4e4), url(../img/hero-bg.jpg) !important;
     }
     
     .navbar .navbar-brand {
@@ -222,9 +222,12 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #ffffff !important;
+        background: transparent !important;
     }
-    
+    .navbar.nav-sticky {
+        padding: 10px 60px;
+        background: linear-gradient(#e2e9e9, #f1e4e4), url(../img/hero-bg.jpg) !important;
+    }
     .navbar .navbar-brand {
         color: #EF233C;
     }
@@ -436,7 +439,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #ffffff;
+    background: linear-gradient(#e2e9e9, #FFCCCC), url(../img/hero-bg.jpg);
 }
 
 .section-header p::before {
@@ -834,7 +837,8 @@ a:focus {
     padding: 6px 12px;
     font-size: 14px;
     font-weight: 600;
-    color: #ffffff;
+    color:   linear-gradient(#e2e9e9, #FFCCCC), url(../img/hero-bg.jpg);
+
     background: #EF233C;
     border: 2px solid transparent;
     border-radius: 0;
@@ -886,7 +890,7 @@ a:focus {
     margin: -30px 15px 30px 15px;
     display: flex;
     align-items: center;
-    background: #ffffff;
+    background: linear-gradient(#e2e9e9, #FFCCCC), url(../img/hero-bg.jpg);
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
 }
 
